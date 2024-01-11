@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        /* 1.descendant Combinators (space): */
+        .grand-father p{
+            color: green;
+            font-size: 20px;
+            background-color: lightgray;
+        }
+        /* 2.child Combinators (>): */
+        .grand-father > p{
+            background-color: aqua;
+            color: blue;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        /* 3.adjecent sibling Combinators(+) */
+        .grand-father + p{
+            background-color: brown;
+            color: white;
+            font-size: 25px;
+            text-align: center;
+        }
+        /* 4.general sibling Combinators(~): */
+      .grand-father ~ p{
+        text-transform: uppercase;
+        text-decoration: underline;
+        
+      }
+
+    </style>
+  </head>
+  <body>
+    <p>this is Paragraph-1</p>
+    <p>this is Paragraph-2</p>
+
+    <div class="grand-father">
+      <p>this is Paragraph-3 (child)</p>
+      <p>this is Paragraph-4 (child)</p>
+      <span>
+        <p>this is Paragraph-1 (sub child)</p>
+      </span>
+      <p>this is Paragraph-5</p>
+    </div>
+    <p>this is Paragraph-1 (nearest)</p>
+    <p>this is Paragraph-2 (publick) </p>
+    <p>this is Paragraph-2 (publick) </p>
+  </body>
+</html>

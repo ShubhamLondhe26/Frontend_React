@@ -1,0 +1,16 @@
+.Navigation{
+    background-color: aqua;
+}
+.navbar{
+    list-style-type: none;
+}
+
+.list{
+    display: inline;
+    padding: 5px;
+}
+.list a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}

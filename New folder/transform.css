@@ -1,0 +1,159 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+[id]{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+}
+
+/* translate */
+.box1{
+    transform: translateX(0px);
+    background-color: #98c30b;
+}
+.box1:hover{
+    transform: translateX(30px);
+    transition: 3s;
+}
+
+.box2{
+    transform: translate(0px, 0px);
+    background-color: #173459;
+}
+.box2:hover{
+    transform: translate(-30px, -40px);
+    transition: 3s;
+}
+
+.box3{
+    transform: translateY(0px);
+    background-color: #15d1ee;
+}
+.box3:hover{
+    transform: translateY(30px);
+    transition: 3s;
+}
+
+.box4{
+    transform: translate3d(0px);
+    background-color: #15d1ee;
+}
+.box4:hover{
+    transform: translate3d(12px,50%,3em);
+    transition: 3s;
+}
+
+/* rotate */
+.box5{
+    transform: rotateX(0deg);
+}
+.box5:hover{
+    transform: rotateX(180deg);
+    transition: 3s;
+}
+
+.box6{
+    transform: rotateY(0deg);
+}
+.box6:hover{
+    transform: rotateY(180deg);
+    transition: 3s;
+}
+
+.box7:hover{
+    transform: rotateZ(0deg);
+}
+.box7:hover{
+    transform: rotateZ(180deg);
+    transition: 3s;
+}
+
+.box8:hover{
+    transform: rotate3d(0deg);
+}
+.box8:hover{
+    transform: rotate3d(1,2,3,10deg);
+    transition: 3s;
+}
+
+/* skew */
+.box9{
+    transform: skew(0deg);
+}
+.box9:hover{
+    transform: skew(30deg, 30deg);
+    transition: 3s;
+}
+
+.box10{
+    transform: skewX(0deg);
+}
+.box10:hover{
+    transform: skewX(45deg);
+    transition: 3s;
+}
+
+.box11{
+    transform: skewY(0deg);
+}
+.box11:hover{
+    transform: skewY(30deg);
+    transition: 3s;
+}
+
+/* scale */
+.box12{
+    background-color: skyblue;
+}
+.box12:hover{
+    transform: scale(2, 0.5);
+    transition: 3s;
+}
+
+.box13{
+    background-color: skyblue;
+}
+.box13:hover{
+    transform: scaleX(2);
+    transition: 3s;
+}
+
+.box14{
+    background-color: skyblue;
+}
+.box14:hover{
+    transform: scaleY(2);
+    transition: 3s;
+}
+
+.box15{
+    background-color: skyblue;
+}
+.box15:hover{
+    transform: scale3d(2.5,1.5,0.3);
+    transition: 3s;
+}
+
+/* Matrix */
+
+.box16{
+    background-color: skyblue;
+}
+.box16:hover{
+    transform: matrix(1,2,3,4,5,6);
+    transition: 3s;
+}
+
+.box17{
+    background-color: skyblue;
+}
+.box17:hover{
+    transform: perspective(100px) matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+    transition: 3s;
+}
+
+

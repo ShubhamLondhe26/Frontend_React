@@ -1,0 +1,22 @@
+*Output Statements
+    -Document.write()
+    -COnsole.log()
+    -DOM(Document Object Model)
+    -windows.alert()
+
+*DataTypes
+    -number
+    -string
+    -array
+    -Object
+    -boolean
+    -undefined
+    -types of () //opreator
+
+*Promt() is used to take input from user.
+
+*operators
+    -Arthematics
+        -(+,-,/,%,**)
+    -Relational
+        -

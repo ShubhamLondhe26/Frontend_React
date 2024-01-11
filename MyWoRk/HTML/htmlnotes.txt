@@ -1,0 +1,105 @@
+1/11/23
+
+*HTML:
+-it is use to create structure of webpage or website.
+-it is use to display data to user on browser.
+-latest version of html is html-five
+-HTML stand for Hyper Text Markup Language 
+
+-html is tag basis Language.
+<tage>
+-In HTML we have two types of tag 
+1.pared tag: <startTag> content </endingTag>
+2.unpaired : <singleTag>
+
+marquee tags:
+ To display scrolling text
+ scrollamount attribute: it is used to handle scrolling speed
+ direction: left,right,up,down
+ behaviour:scrool, alternate,slide
+
+*there are three step to create webpage 
+step1: create file and save with .html or .htm extension.
+step2: write html code and save it.
+step3: execute file on browser.
+
+html page contain mainly two parts 
+head part : it include external files and meta data in it.
+body part :it is use to display information on browser.
+
+-heading tag: h1...h6
+-paragraph : p 
+-bold text: b
+-underline text: u 
+-italic text: i 
+
+unpaired tag: br(line break) and hr(horizontal rural) 
+
+Interview Question;
+
+Q.1 Difference between HTML and HTML5?
+- Symantic Element introduced: the element with specific meaning ex-=header,footer,nav,section,aside,article,etc
+- new tags, attributes, and new input type introduced:
+- Multimedia element introduced:
+-HTML API introduced:
+    -Geolocation:
+    -Drag and Drop:
+    -web-worker
+    -web-storage:
+    -SSE (Server Sent Event)
+Q.2 Features of HTML5?
+
+
+***************************************************************************************************************************************************
+*03-11-2023*
+
+-HTML API(APPLICATION PROGRAMMING INTERFACE): i is small inbuilt code which use directly.
+    -Geolocation:it returns the current position.
+                -it will work with devices which ha gps
+    -rag and Drop:it allows to drag an object from one location and drag to another place.
+    -web-worker:it is small javascript code which execute at the backend of webpage without affecting its current execution.
+    -web-storage:it is use o store data on browser.
+                1-Local Storage=it store user data permanatly
+                2.session storage=it store user data for limited time.
+    -SSE(Server sent event):it allows us to get automatic updatefro server.
+
+-New tags
+    -List: it is collection of items.
+        -In HTML we have three types of list.
+            1-Ordered List:
+                -Types:
+                    -Numbers,A,B,C,a,b,c,I,II,III,i,ii,iii
+            2-Unordered List:
+                -Types:
+                    -Disc,circle,square,none
+            3-Description List:
+                -Types:
+                    -dl:Description List
+                    -dt:Define Term
+                    -dd:Define Description
+
+    -Nested List:writing list in another list.
+
+-Images Insertion
+    -
+
+21/11/2023
+
+
+23/11/2023
+
+HTML Forms:
+- It is used to get data and information from user.
+-it contains input control,checkbox,radio,button,dropdown
+
+To submit form data there are two methods
+
+1-GET method
+    -Submit data will be displayed here.
+2-POST method
+
+
+24-11-2023
+
+Website Layout
+-

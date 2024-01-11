@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        greet();
+    // 1.function with no parameter and no return value.
+   function greet(){
+    document.write("Welcome You All In Hematite Infotech Pvt Ltd. <br>");
+   }
+  //2.function with parameter but no return value.
+   function addition(num1,num2){
+    document.write(num1+num2,"<br>");
+   }
+  addition(500,200);
+  addition(800,300);
+  addition(300,500);
+//   3.function with no parameter but with return value.
+function subtraction(){
+    return 1000-300;
+}
+var result = subtraction();
+console.log(result);
+
+// 4.function with parameter and with return value. 
+function multiplication(n1,n2,n3){
+  return n1*n2*n3;
+}
+var mul = multiplication(2,3,4);
+console.log(mul)
+    </script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+25/11/23
+
+*Css :
+-it is use to design webpage and website 
+-which makes webpage or website good looking and attractive.
+-its stand for Cascading Style Sheet 
+-latest version of css is Css3 
+
+
+*there are three way to use css with html file 
+Q.what are types of css
+1.inline css:in starting tag we write style attribute and in that we use css property and value
+2.internal css: in html page we use style tag and inbetween that we write css code.
+synatx:  selector{
+    property:value;
+    property:value;
+    property:value;
+}
+3.external css: in this we create a seperate css file and that css file we import in html file in head part by using link tag.
+
+
+*Selector : selector means selecting an element.
+1.element selector: selecting an element with name
+2.group selector: making group of element name when we have to apply same css property
+3.id selector(#): when we have to apply css property to an single element in that case we use it.
+4.class selector(.): when we have to apply comman css property to specific element.
+5.universal selector (*):when you have to apply css property to all element available in webapye.
+
+vishal,rahul,shubham,aakansha
+=======================================================
+27/11/23
+
+*Border property: a line drown around an element.
+*border short hand property.
+
+*Box Model:
+1.content: it can be any text or image
+2.padding: it is use to clear area between content and element border.
+3.border: a line drown around an element.
+4.margin: it is use to clear area between element border and window screen.
+
+vishal,rahul,aakansha,shubham,sudhir 
+=======================================================
+28/11/23
+
+*margine:auto;
+Position:by using position we can move html element by applyinf left,right,top and bottom value.
+-position:static;  // default element will not move 
+-position:relative; // element will move after apllying left,right,top and bottom value.
+-position:absolute; // child element will work accoring its parent element. in this parent element must have position relative 
+-position:fixed; html element fixed on window screen or viewport 
+position:sticky; element will be available on wepage but it stick at perticular point.
+
+*z-index: it is use to decide stack priority of an element
+        it has only two values 1(heigh priority) and -1(low priority) 
+
+*background property
+
+*opacity: it is use to make element background transparent.
+         -it value varry in between 0 and 1.
+
+task1: position basis task 
+task2: design i-card
+
+vishal,rahul,shubham,aakansha,sudhir 
+=======================================================
+29/11/23
+
+*OverFlow: if you want to fit big content into box.
+OverFlow:visible;
+overflow:hidden;
+overflow:scroll;
+overflow:auto;
+
+*float: it is use to bring block element side by side
+float:left;
+float:right;
+float:none;
+
+===========================================
+30/11/23
+
+*Combinators: it specify relation between selector
+1.descendant Combinators (space):
+2.child Combinators (>):
+3.adjecent sibling Combinators(+):
+4.general sibling Combinators(~):
+
+*visibility:hidden;
+*display:none;
+
+*hover : it will work when you over mouse on it.
+
+
+task1: display freedom fighter info 
+task2: enlarge small image after mouse over on it.
+
+aakansha,Rahul,Shubham,Vishal 
+==========================================================
+1/12/23
+
+*hover effect for parent and child element 
+display:block; when we have to convert inline element into block.
+display:inline; when we have to convert block element into inline element.
+display:inline-block;it will allows us to apply height and width to an inline element.
+
+*how to create nav bar 
+1.Verticle nav  Bar 
+2.Horizontal Bar 
+
+
+Color Values 
+1. by name 
+2. by using RGB(0-255,0-255,0-255)
+3. by using Hex(ff,ff,ff) or(a,e,f) 
+4. by using HSL(degree,lightness,opacity)
+
+0-120-red
+120-240-green
+240-360 -blue
+
+vishal,rahul,aakansha
+=================================================
+4/12/23
+
+*Dropdown button 
+
+*box-sizing:border-box;
+-it include element padding and border size in it total width.
+
+*pseudo classes : 
+-this are inbuilt classes provitrd by css 
+-it works only with anchore tag 
+-you have to use same order as given 
+
+1.link: it will apllying css property when we create link
+2.visited:it will apllying css property when we visite link
+3.hover:it will apllying css property when we over on link
+4.Active :it will apllying css property when we click on it. 
+
+*Gradient: it is to apply smooth transition of multple color 
+1.linear Gradient: it will aplly smooth transition of color from different direction.
+2.Radial Gradient:it will aplly smooth transition of color in circular manner.
+
+vishal,rahul,aakansha
+=======================================================================
+5/12/23
+
+*Mediaquery: it apply different style rule on different screen width.
+syntax: @media screen and (break-point){
+        css code
+}
+
+screen with >= 1200px : XL(Extra Large)
+screen width >=992px  :LG(Large)
+screen width >=768px  :MD(medium)
+screen width >=576px  :SM(Small)
+screen width <576px  :XSM(extra small)
+
+break-point means screen-width 
+
+max-width: in this css property will applicable from 0px to till its maximum width
+mix-width: in this css property will applicable from minimum width to its above.
+
+*flex: it is use to manage website element and layout according to different screen.
+       it is use to make website responsive 
+       -display:flex property always aplly to parent element.
+
+
+aakansha,Rahul,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

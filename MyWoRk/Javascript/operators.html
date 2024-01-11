@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable in Javascript</title>
+</head>
+<body>
+    <p id="p1"></p>
+    <script>
+        var a=4, b=6;
+        document.write(a>= b || b >= a,"<br>");
+        document.write(!(a == b),"<br>");
+        window.alert(a+","+b);
+        document.getElementById('p1').innerHTML = a+","+b;
+        console.log(a+","+b,"<br>");
+        document.write(typeof(a));
+        document.write(5 == '5',"<br>");
+        document.write(5 === '5',"<br>");
+        var element = document.getElementById('p1');
+        var element1 = document.getElementById('p1').innerHTML;
+        document.write(element,"<br>")
+        document.write(element1,"<br>")
+    </script>
+</body>
+</html>

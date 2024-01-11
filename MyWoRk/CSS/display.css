@@ -1,0 +1,25 @@
+.box-wrap{
+    display: flex;
+    border: 2px solid brown;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    border: 2px solid brown;
+    
+}
+#box1{
+    align-self: baseline;
+}
+
+#box3{
+    align-self: flex-end;
+    flex-basis: 200px;
+}
+
+#box2{
+    flex-grow: 0.1;
+}

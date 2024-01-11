@@ -1,0 +1,49 @@
+header{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px 0px;
+    border-bottom: 5px solid blue;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 7px solid red;
+    outline: 10px solid black;
+    vertical-align: middle;
+    margin: 8px 20px;
+}
+
+.mytitle{
+    font-size: 60px;
+    color: red;
+    font-weight: 600;
+    font-family: fantasy;
+    letter-spacing: 6px;
+    text-shadow: 6px 3px 2px black;
+}
+.container{
+    border: 6px solid brown;
+    width: 90%;
+    height: 200px;
+    overflow: auto;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 11px;
+}
+
+.left-img{
+    border: 5px solid green;
+    height: 160px;
+    border-radius: 7px;
+    margin: 6px;
+    float: right;
+}
+
+.info{
+    margin: 8px;
+    text-indent: 63px;
+    text-align: justify;
+}

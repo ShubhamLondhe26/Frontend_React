@@ -1,0 +1,190 @@
+5/1/24
+
+*Javascript: 
+-it is use to add functionality into webpage or webapp.
+-it is interpreted language.
+-it is loosely types language.
+
+
+*how many ways we can use Javascript
+1.internal Javascript: in this ,in html filw we use script yag and in that we write Javascript code
+2.External Javascript:in thus we crteatea sepreate js file and that js file we import in html file head part script.
+
+*How to display output in js 
+1.document.write(): it will display output on browser.
+2.window.alert(): it will generate one popup and display output in it.
+3.console.log():it will display output in browser console.
+4.DOM(Document Object Model):
+
+
+Note: in Javascript window is global object 
+
+*Variable:-it is container which store data in it.
+          -store data can be change to reuse it.
+          -in js we can create Variable with var ,let and const keyword.
+
+syntax:     var variableName;   // variable declaration;
+            variableName = value; // variable initialization;
+              or 
+            var variableName = value; // defining a variable   
+
+*Rule For creating Variable 
+-its name can not be any reserved keyword.
+-variable name can not start with digit.
+-variable name must start with lowercase letter.
+-in Javascript variable name can start with $ and _ 
+
+*Data type: 
+*Looping Statment: to repeate same thing multiple time 
+1.for loop: in this if condition is true then and only then innner code will execute.
+  syntax: for(initialization;condition-check;increment/decrement){
+       //logical code
+  }
+2.while loop:in this if condition is true then and only then innner code will execute.
+   syntax:   initialization
+    while(condition-check){
+          //logical code;
+         increment/decrement
+     }
+3.do while loop: in this even if condition is false then also code execute once.
+syntax:  initialization;
+        do{
+            //logical code 
+             increment/decrement
+        }while(condition-check)
+
+
+
+Task1: print 1,2,3.........20
+Task2: print 1
+            2
+            3
+            .
+            .
+            10
+Task3: print 2,4,6....20
+
+Rahul,Aakansha,Shubham
+
+============================================
+6/1/24
+
+*Conditional: 
+-if you want to execute code conditionaly for that we use it. 
+
+1.if : this is condition is then and only then if block will execute 
+2.if ..else: in this condition is true then if block will execute other else will execute
+3.nested if lese : in this we can use if else inside another if else.
+4.if ladder: 
+5.swichcase :
+
+Aakansha.
+======================================
+8/1/24
+
+*differance between == and === operators 
+==  : it check only values and if it is same then return true value.
+ex: 5==5 =>true
+ex: 5=='5' =>true
+
+=== : it check both value as well as datatype and if both are same then it reutn value.
+5===5 =>true
+5==='5' =>false
+
+Q.why Javascript is called as loosely typed language.
+-when we create a avariable in Javascript we can not determine what type type of data it contain.
+untill and unless we initialize it.
+
+Looping :it is use to repeate same thing multiple time. 
+1.for loop 
+2.while loop 
+3.do while 
+
+*Array:
+-it is use to store multiple values with same data type.
+-in array data store on index basis.
+-array index always start from zero 
+-array represented by []
+-we can access array data outside array by writting arrayName[index]
+
+Mahesh,rahul,aakansha, shubham 
+===========================================
+9/1/24
+
+
+*nested loop 
+*function:-function is block of code which use to perform specific task.
+          -function will execute only when we call it.
+          -it can be reuse multiple time.
+
+*Mainly we have two types of function
+-Predefine function : function which is already developed by Javascript which we can use directly. 
+-Userdefine function : function developer us for pecific operation.
+
+Types of function 
+1.function with no parameter and no return value.
+2.function with parameter but no return value.
+3.function with no parameter but with return value.
+4.function with parameter and with return value. 
+
+syntax:  function functionname(){
+  //logical code 
+}
+
+rahul,mahesh,aakansha,shubham;
+
+=====================================================
+10/1/24
+
+-in Javascript + uses for two purposes 1.addition,2.string concatination
+*Default function 
+
+welcome you Rahul , Shubham , Mahesh in hematite infotech pvt ltd 
+*how to create calculator 
+Rahul,shubham,mahesh
+==================================
+11/1/24
+
+*how to perform calculator with onew function
+*prompt : it generate one popup window and user to insert data in it. 
+
+
+Task1: take value from prompts and display wether he is your friend or not.
+Task2:take value from prompts and display wether enter number is even or odd .
+Task3:take value from prompts and display wether enter alphbet is vovels or consonent.
+
+Rahul,mahesh,aakansha,shubham.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

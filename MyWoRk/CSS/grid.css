@@ -1,0 +1,22 @@
+.box-wrap{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px ;
+    grid-template-rows: 200px 200px;
+    justify-content: center;
+    align-items: center;
+    /* column-gap: 20px;
+    row-gap: 20px; */
+    gap: 20px;
+}
+
+div{
+    border: 2px solid gray;
+}
+
+.Coloumn-1{
+    grid-column: 1/ span 3;
+    grid-row: 1/ span 2;
+}
+.Coloumn-2{
+    align-self: baseline;
+}

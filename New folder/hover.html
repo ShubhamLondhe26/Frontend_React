@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .cls1 {
+        color: red;
+        text-align: center;
+      }
+      .cls1:hover {
+        color: blue;
+        font-size: 45px;
+        font-weight: 700;
+        font-family: cursive;
+      }
+      .parent {
+        border: 3px solid blue;
+        width: 400px;
+        text-align: center;
+        margin: auto;
+        font-size: 38px;
+        color: navy;
+      }
+      .child{
+        display: none;
+      }
+      .parent:hover .child{
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cls1">Hematite</div>
+
+    <div class="parent">
+      Greeting Message
+      <div class="child">
+        <img src="../assets/images/happy-imoji.jfif" alt="" />
+         <h2> Welcome You All in Hematite Infotech Pvt Lyd</h2>
+      </div>
+    </div>
+  </body>
+</html>
