@@ -1,0 +1,8 @@
+.content{
+    /* border: 2px solid black; */
+    height: 250px;
+    width: 350px;
+    overflow: auto;
+    box-shadow: 8px 9px 5px 6px gray;
+    text-shadow: 3px 5px 1px gray;
+}

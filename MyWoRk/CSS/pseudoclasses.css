@@ -1,0 +1,31 @@
+.Navigation{
+    background-color:white;
+}
+.navbar{
+    list-style-type: none;
+}
+
+.list{
+    display: inline;
+    padding: 5px;
+}
+.list a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+.link a :active{
+    background-color: blueviolet;
+    color: chocolate;
+}
+.link:visited{
+    color: red;
+}
+.link:hover{
+    background-color: greenyellow;
+    color: green;
+}
+.link:link{
+    background-color: aqua;
+}

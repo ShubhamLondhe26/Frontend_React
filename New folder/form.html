@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+   <form>
+     <div>
+        <label for="fname">Enter Your FullName:</label>
+         <input type="text" name="fname" id="fname" minlength="2" maxlength="15" 
+         pattern="^[a-zA-Z ]{2,15}$" placeholder="enter fullname" required>
+     </div>
+     <div>
+        <label for="">Enter Your Password:</label>
+        <input type="password" name="pass" placeholder="enter password" required>
+     </div>
+     <div>
+        <label for="">Enter Your Email:</label>
+        <input type="email" name="uemail" placeholder="enter emailid" required>
+     </div>
+     <div>
+        <label for="">Enter Your Contact:</label>
+        <input type="tel" name="ucontact" min="10" max="12" placeholder="enter contact" required>
+     </div>
+     <div>
+        <label for="">Enter Your DOB:</label>
+        <input type="date" name="dob" required>
+     </div>
+     <div>
+        <label for="">Enter Your Age:</label>
+        <input type="number" name="age" min="18" max="40" required>
+     </div>
+     <div>
+        <label for="">Please Select Your gender:</label>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="transgender">Transgender
+     </div>
+     <div>
+        <label for="">Please Select Qualification:</label>
+        <input type="checkbox" name="edu" value="ssc">SSC
+        <input type="checkbox" name="edu" value="hsc">HSC
+        <input type="checkbox" name="edu" value="ug">UG
+        <input type="checkbox" name="edu" value="pg">PG
+     </div>
+     <div>
+        <label for="">Course fees:</label>
+        <input type="text" name="fees" value="10,000" readonly disabled>
+     </div>
+   <div>
+    <label for="">upload Your Profile:</label>
+    <input type="file" name="profile" required>
+   </div>
+   <fieldset>
+     <legend>Bank Detail</legend>
+        <label for="">Acc Holder Name:</label>
+        <input type="text" name="accholder"> <br>
+        <label for="">Acc Number:</label>
+        <input type="text" name="accno"> <br>
+    </fieldset>
+    <button type="submit">Submit</button> 
+    <button type="reset">Reset</button>
+   </form>
+
+
+</body>
+</html>

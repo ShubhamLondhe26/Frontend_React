@@ -1,0 +1,53 @@
+
+header{
+    background-color: aqua;
+    height: 80px;
+    border-bottom: 5px solid;
+}
+.positionRelative{
+    background-color: burlywood;
+    font-size: 36px;
+    border: 2px solid red;
+    top: 20px;
+    left: 40px;
+    position: relative;
+}
+.parent{
+    border: 2px solid red;
+    width: 500px;
+    height: 240px;
+    background-color: lightgray;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.child{
+    border: 5px solid green;
+    width: 200px;
+    height: 100px;
+    background-color: slategrey;
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    left: 25px;
+}
+
+.positionFixed{
+    border: 2px solid brown;
+    width: 50px;
+    background-color: blueviolet;
+    position: fixed;
+    right: 0px;
+    top: 158px;
+    z-index: 1;
+}
+
+.positionSticky{
+    border: 3px solid red;
+    text-align: center;
+    font-size: 25px;
+    background-color: gray;
+    color: white;
+    position: sticky;
+    top: 0px;
+}

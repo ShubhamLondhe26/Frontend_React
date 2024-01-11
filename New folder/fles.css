@@ -1,0 +1,18 @@
+.parent{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-flow: wrap row; */
+    justify-content: space-around;
+}
+.parent div{
+    border: 2px solid blue;
+    height: 110px;
+    width: 150px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 6px;
+    background-color: burlywood;
+}

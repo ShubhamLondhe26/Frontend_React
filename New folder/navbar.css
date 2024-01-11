@@ -1,0 +1,56 @@
+.navigation{
+    background-color: skyblue;
+}
+
+.navbar{
+    list-style-type: none;
+}
+
+.list{
+    display: inline-block;
+    padding: 10px;
+}
+
+.link{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.link::before{
+    content: "|";
+}
+
+.link::after{
+    content: "|";
+}
+
+.para{
+    text-align: justify;
+}
+
+.para::first-line{
+    text-decoration: underline;
+    background-color: aquamarine;
+}
+
+.para::first-letter{
+    font-size: 30px;
+}
+
+.para::selection{
+    background-color: aquamarine;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+}
+
+.box:hover{
+    width: 400px;
+    height: 400px;
+    transition: 4s;
+}
+    

@@ -1,0 +1,56 @@
+.Navigation{
+    background-color: aqua;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    
+}
+.navbar{
+    list-style-type: none;
+}
+
+.list{
+    display: inline;
+    padding: 5px;
+}
+.list a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+.parent{
+    
+    border: 2px dotted black;
+    width: 500px;
+    margin: auto;
+    position: relative;
+    height: 500px;
+    top: 100px;
+    
+}
+.TL{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.TR{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.Cen{
+    position: absolute;
+    top: 226px;
+    left: 230px;
+
+}
+.BL{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+.BR{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}

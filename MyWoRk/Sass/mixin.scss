@@ -1,0 +1,9 @@
+$primarycolor: skyblue;
+
+@mixin boxwrapper($bwidth, $height, $style, $color) {
+    width: $bwidth;
+    height: $height;
+    background-color: $primarycolor;
+    border: 4px $style $color; 
+    margin-bottom: 10px;
+}

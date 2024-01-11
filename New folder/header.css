@@ -1,0 +1,29 @@
+
+header{
+    background-color: aqua;
+    text-align: center;
+    border-bottom: 6px solid blue;
+}
+.mylogo{
+    height: 70px;
+    width: 70px;
+    border: 5px solid red;
+    border-radius: 50%;
+    box-shadow: 6px 2px 6px black;
+    vertical-align: middle;
+    margin: 8px;
+}
+.mytitle{
+    font-size: 40px;
+    color: red;
+    font-weight: 700;
+    text-shadow: 4px 2px 2px black;
+}
+
+.boxmodel{
+    border: 5px solid black;
+    width: 160px;
+    padding: 10px 20px 30px 40px;
+    margin: 20px 10px 15px 25px;
+}
+

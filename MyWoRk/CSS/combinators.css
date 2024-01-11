@@ -1,0 +1,33 @@
+.parent{
+    border: 2px groove black;
+    width: 400px;
+    height: 200px;
+}
+
+/* Decendent Combinators reprensted with space*/
+/*Decendent combinators will be applicable to child elements*/
+
+.parent .Child{
+    background-color: aqua;
+}
+
+/* child Combinators represented with >*/
+/*child combinators will be applicable to child elements*/
+
+.parent>.Child{
+    color: black;
+    font-size: 20px;
+}
+
+/* Sibling Combinators represented with +*/
+/*Sibling combinators will be applicable to child elements outside div only the nearest one*/
+
+.parent+ .Child{
+    background-color: blueviolet;
+}
+/* Adjacent General Combinators represented with ~ */
+/*Adjacent General Combinators will be applicable to all child elements outside div */
+
+.parent~ .Child{
+    background-color: greenyellow;
+}

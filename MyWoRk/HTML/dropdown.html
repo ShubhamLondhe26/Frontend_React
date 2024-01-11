@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop Down</title>
+</head>
+<body>
+    <h2>DropDown</h2>
+    <form>
+        <label for="city">Select Your City:</label>
+        <select name="city" id="city" multiple required>
+            <option value="city">
+                <option value="">Select Your City</option>
+                <option value="pune">Pune</option>
+                <option value="nagpur">Nagpur</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Baramati">Baramati</option>
+            </option>
+        </select><br><br>
+
+        <label for="course">Select Your Course</label>
+        <select name="course" id="course" multiple required>
+            <option value="">Select Your Course</option>
+            <option value="react">React</option>
+            <option value="angular">Angular</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+        </select><br><br>
+
+
+        <label for="fullsatck">Select fullsatck Course</label>
+        <select name="fullsatck" id="fullsatck" multiple>
+            <optgroup label="Frontend">
+                <option value="react">React</option>
+                <option value="angular">Angular</option>
+            </optgroup>
+            <optgroup label="Backend">
+                <option value="java">Java</option>
+                <option value="Python">Python</option>
+            </optgroup>
+        </select><br><br>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>

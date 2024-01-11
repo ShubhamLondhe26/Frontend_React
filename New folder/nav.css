@@ -1,0 +1,28 @@
+
+
+.navbar{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: lawngreen;
+    /* width: 200px; */
+    overflow: auto;
+    border-style: solid;
+}
+li{
+    float: left;
+}
+.navbar li a{
+    text-decoration: none;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    display: block;
+    font-size: 25px;
+    padding: 4px 6px;
+}
+
+.navbar li a:hover{
+    background-color: lawngreen;
+    color: blue;
+}
