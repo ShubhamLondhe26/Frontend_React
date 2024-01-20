@@ -154,6 +154,79 @@ Task2:take value from prompts and display wether enter number is even or odd .
 Task3:take value from prompts and display wether enter alphbet is vovels or consonent.
 
 Rahul,mahesh,aakansha,shubham.
+========================================================
+12/1/23
+
+*Object:
+-it is use to multiple values with different datatype.
+-in object datatype data store in key and value pares formate.
+-we can access object data outside object by writting objectName.keyname
+-object denoted by {}
+
+*how to access object data outside 
+*how to access object inside object 
+*how to access finction inside object 
+
+*array of object.
+
+Mahesh,Rahul
+===================================================================
+16/1/24
+
+*we saw task how to check enter data is vovel or consonent.
+
+String: -it is collection of character.
+        -in string each letter has index number, instring black space also consider as string.
+        -in string index number start from zero.
+        -in Javascript string is also data type. 
+
+string method
+
+To find string index we have three method 
+1.indexOf("searching-string",position):
+-it return index of first occurences of searching string.
+-it will search string from left to right direction.
+-if searching string is not found then it return -1 value.
+
+2.lastIndexOf("searching-string",position):
+-it return index of first occurences of searching string.
+-it will search string from right to left direction.
+-if searching string is not found then it return -1 value.
+
+3.search("searching-string"):
+-it return index of first occurences of searching string.
+-it will search string from left to right direction.
+-if searching string is not found then it return -1 value.
+-it is faster than index of method.
+
+*there are three method which return part of string from index number.
+1.slice(start-index,end-index):
+ -it will return part of string from main string 
+ -if we pass +ve index then it search string from left to right.
+ -if we pass -ve index then it search string from right to left.
+
+2.subString(start-index,end-index):
+-it will return part of string from main string 
+ -if we pass +ve index then it search string from left to right.
+ -it never accept -ve value.
+
+3.subStr(start-index,total-number-of character):
+-it will return part of string from main string 
+ -if we pass +ve index then it search string from left to right.
+ -it never accept -ve value.
+
+4.chartAt(): it return single character avariable on searching index.
+
+
+
+
+
+
+
+
+
+
+
 
 
 

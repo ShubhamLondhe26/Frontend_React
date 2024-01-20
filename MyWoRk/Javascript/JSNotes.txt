@@ -20,3 +20,13 @@
         -(+,-,/,%,**)
     -Relational
         -
+
+*There are three methods which returns part of string from index nummber.
+
+1. Slice(start-index,end-index):
+    -it will return part of string from main string
+    -if we pass 
+2.subString(start-index,end-index):
+3.subStr(start-index,total numbers of chracters):
+
+*Task

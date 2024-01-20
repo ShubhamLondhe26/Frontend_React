@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Replacement</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+
+        input {
+            padding: 8px;
+            margin: 5px;
+            width: 150px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <textarea name="txt" id="txt" cols="30" rows="10" placeholder="Enter your text..."></textarea>
+    <input type="text" name="NewText" id="nwtxt" placeholder="New Text">
+    <input type="text" name="OldText" id="oldtxt" placeholder="Old Text">
+    <button type="button" onclick="rplc()">Replace</button>
+    <button type="button" onclick="rplcall()">Replace All</button>
+
+    <script>
+        function rplc() {
+            var oldText = document.getElementById("oldtxt").value;
+            var newText = document.getElementById("nwtxt").value;
+            var currentText = document.getElementById("txt").value;
+
+            var updatedText = currentText.replace(oldText, newText);
+
+            document.getElementById("txt").value = updatedText;
+        }
+
+        function rplcall() {
+            var oldText = document.getElementById("oldtxt").value;
+            var newText = document.getElementById("nwtxt").value;
+            var currentText = document.getElementById("txt").value;
+
+            var updatedText = currentText.split(oldText).join(newText);
+
+            document.getElementById("txt").value = updatedText;
+        }
+    </script>
+</body>
+</html>
