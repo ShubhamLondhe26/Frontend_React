@@ -216,6 +216,83 @@ To find string index we have three method
  -it never accept -ve value.
 
 4.chartAt(): it return single character avariable on searching index.
+==============================================
+17/1/24
+
+-we revised if ,if else,nested if else 
+-differance between java and Javascript 
+-solve students issues 
+
+mahesh,shubham,rahul,aakansha.
+==========================================
+18/1/24
+
+*advanced function 
+*concate 
+*my using spread opertor how to merge array.
+
+Mahesh,rahul,aakansha.
+========================================
+19/1/24
+
+*typeof : it gives us datatype of variable
+*Math : it is use to perform for arithmatic opertion 
+
+Math.abs(): it return absolute value;
+Math.ciel(): it return top most value;
+Math.floor(): it return lowest most value;
+Math.round(): it return lowest value if decimal point is below 5 otherwise it will return top;
+
+Math.random(): it return us random value, it valie will greater than 0 and lesstah 1 
+
+*How to get and display Date and time in Javascript
+-to get and display date and time in Javascript for that first we have to create object of Date Class
+-in Javascript date class object return data and time from browser.
+syntax: creating object of data class
+
+var objName = new Date();
+
+*how to set date and time 
+var objName = new Date(year,month,date,hours,minutes,second);
+
+*setInterval : it call another method multiple time after perticular time interval.
+Note: when we write a function inside another function as a argument we do not arite parenthesis.
+=================================================================================
+20/1/24
+
+*form validation : to check user enter data is correct or wrong.
+-there are two was to perform form validation 
+1. form validation after submit form data (onsubmit,onclick)
+2. before submitting form data (onblur)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // default function
+      function greet() {
+        document.write(`Welcome You Students <br>`);
+      }
+      greet();
+      //parameterize function
+      function welcome(std1, std2, std3) {
+        document.write(`Welcome You ${std1} ,${std2} ,${std3} ,<br>`);
+      }
+      welcome("Mahesh", "Rahul", "Aakansha");
+      //    welcome("Rahul");
+      //    welcome("Aakansha");
+
+      //3.anonymous: function with no name
+      var add = function () {
+        return 10 + 50;
+      };
+      document.write(add(), "<br>");
+
+      var sum = function (num1, num2) {
+        return num1 + num2;
+      };
+      document.write(sum(200, 600), "<br>");
+
+      //4.arrow function: function with no name and no function keyword.
+      var mul = () => {
+        return 4 * 5;
+      };
+      document.write(mul(), "<br>");
+
+      //   var product = (num1, num2) => {
+      //     return num1 * num2;
+      //   };
+      var product = (num1, num2) => num1 * num2;
+
+      document.write(product(5, 7), "<br>");
+
+      //4.optional parameterize function: in this parameter will be optional, not necessasry to pass value, it must write at last
+      var fullName = (fname, lname, mname = "") => {
+        return `${fname} ${mname} ${lname}`;
+      };
+      document.write(fullName("Panchashil", "Wankhede"), "<br>");
+      document.write(fullName("Panchashil", "Wankhede", "M."), "<br>");
+
+      //5.rest parametrize function(...): when we don't know how many parameterse are required. in this we use spread operator.
+      var stdList = (...std) => {
+        return `${std}`;
+      };
+      document.write(
+        stdList("Mahesh", "Shubham", "Rahul", "Aadesh", "Anmol"),
+        "<br>"
+      );
+
+      //   concate : it is use to merge two or more string or array
+      var boys = ["Mahesh", "Rahul"],
+        girls = ["Aakansha", "Kasturi"];
+      console.log(boys);
+      console.log(girls);
+      var students = boys.concat(girls,"Anmol","Shradha");
+      console.log(students);
+
+      //merging array by using spread operator 
+      var employees = [...boys,...girls];
+      console.log(employees);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation task</title>
+    <script src="./formvalidation.js"></script>
+    <link rel="stylesheet" href="./formvalidation.css">
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="">Name:</label>
+            <input type="text" name="fname" id="fname" onblur="validata()">
+            <span id="usrerr"></span>
+        </div>
+        <div>
+            <label for="">Contact No:</label>
+            <input type="text" name="mobno" id="mobno" onblur="validata()">
+            <span id="moberr"></span>   
+        </div>
+        <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male" onblur="validata()">Male
+            <input type="radio" id="female" name="gender" value="Female" onblur="validata()">Female
+            <span id="generr"></span>
+        </div>
+        <div>
+            <label for="">Password</label>
+            <input type="text" name="pass" id="pass"onblur="validata()">
+            <span id="passerr"></span>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
