@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary</title>
+</head>
+<body>
+    <h1 id="grsalary"></h1>
+    <script>
+        
+        function evaluate(){
+            var bscsalary = parseInt(prompt("Enter Your Basic Salary"))
+            var HRA = bscsalary * 0.01;
+            var DA = bscsalary * 0.05;
+            var PF = bscsalary * 0.12
+            var grosssalary = bscsalary + HRA + DA - PF;
+            document.getElementById("grsalary").innerHTML = "The Gross Slary is :" + grosssalary;
+            
+        }
+        evaluate()
+    </script>
+</body>
+</html>

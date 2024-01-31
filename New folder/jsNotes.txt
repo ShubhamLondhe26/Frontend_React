@@ -257,6 +257,7 @@ var objName = new Date(year,month,date,hours,minutes,second);
 
 *setInterval : it call another method multiple time after perticular time interval.
 Note: when we write a function inside another function as a argument we do not arite parenthesis.
+mahesh,aakansha,Rahul,shubham
 =================================================================================
 20/1/24
 
@@ -265,7 +266,47 @@ Note: when we write a function inside another function as a argument we do not a
 1. form validation after submit form data (onsubmit,onclick)
 2. before submitting form data (onblur)
 
+mahesh,aakansha,Rahul,shubham
+=======================================================
+23/1/24
 
+Callback function : passing a function as an argument inside another function.
+Note: when we pass a function as an argument inside another function we do not write parenthesis.
+
+*setTimeOut(): it call another method only once after perticular time interval.
+*setInterval():it execute another method multiple time after perticular time internal.
+
+*ES5 (ECMA Script-5 2009);
+*trim(): it remove unwanted white space from both side of string. 
+
+mahesh,aakansha,shubham
+========================================
+24/1/24
+IMP 
+*Hoisting : it is Javascript default behavior which moves variable declaration at top.
+            means we can use variable before declaration.
+
+*differance between let var and const 
+
+var :-it create function scope variable.
+     -variable can be re-declare.
+     -variable can be use before declaration. 
+
+
+let : -it create block scrope varianle .
+      -variable can not be re-declare.
+      -variable can be use before declaration. 
+
+const :-it create block scrope varianle .
+       -while creating variable we have to initialize it with same time.
+       -it value will never change on run time. 
+       -variable can not be re-declare.
+      -variable can be use before declaration. 
+
+DOM Manipulation 
+
+shubham , mahesh 
+========================================================================
 
 
 

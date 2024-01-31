@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button type="button" onclick="printlist()">print list</button>
+    <ul id="parent">
+    </ul>
+
+    <script>
+        let fruits = ["Apple", "Mango", "Banana", "Graps"];
+      function printlist() {
+        for (let i = 0; i < fruits.length; i++) {
+            let liElement = document.createElement("li");
+            let data = document.createTextNode(fruits[i]);
+                  liElement.appendChild(data);
+            let mainlist = document.getElementById("parent");
+            mainlist.append(liElement);
+        }
+      }
+    </script>
+  </body>
+</html>

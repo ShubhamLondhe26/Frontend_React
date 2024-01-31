@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array with DOM </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        input {
+            padding: 8px;
+            margin-right: 10px;
+        }
+
+        button {
+            padding: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: #fff;
+            margin: 5px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <input type="text" placeholder="Enter Student Name" id="sname">
+    <ul id="u1"></ul>
+    <button type="submit" onclick="crtstudent()">Add Student</button>
+    <button type="submit" onclick="dsplystudata()">Display Student List.</button>
+
+    <script>
+        let stddata = []
+        function crtstudent(){
+            let entrstdata = document.getElementById("sname").value
+            stddata.push(entrstdata)
+             document.getElementById("sname").value = "";
+
+            console.log(stddata)
+        }
+        function dsplystudata(){
+            for (let i = 0; i < stddata.length; i++){
+                let crtelement = document.createElement("li");
+                let studentdata = document.createTextNode(stddata[i]);
+                    crtelement.append(studentdata);
+                let mainlist = document.getElementById("u1");
+                mainlist.append(crtelement);    
+            }
+
+
+        }
+    </script>
+</body>
+</html>

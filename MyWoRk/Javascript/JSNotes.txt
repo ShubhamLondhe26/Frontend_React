@@ -30,3 +30,41 @@
 3.subStr(start-index,total numbers of chracters):
 
 *Task
+
+
+23-01-2024
+
+callback function- passing a fuction as an argument inside another function.
+
+
+24-01-2024
+
+*imp*
+
+*Hoisting 
+    -it is javascript default behaviour which moves variable declaration at top.
+    -we can use variable before declaration.
+
+*diff between let var const
+
+var: it create function scope variable.
+    -variable can be redeclared.
+    -variable cab be used before declaration
+
+let: it create block scope variable
+    -variable cannot be redeclared.
+    -variable
+
+const: it create block scope variable.
+    -while creating variable we have to intialize it with same time.
+    -it value will never change on runtime.
+
+
+
+
+* 
+-new: it create continous memory allocation for the Object.
+
+
+
+*OOPS

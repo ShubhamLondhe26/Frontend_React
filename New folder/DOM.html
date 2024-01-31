@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+   <div id="d1">
+      hello everyone
+   </div>
+
+   <button type="button" onclick="newElement()">create element</button>
+<script>
+
+
+function newElement(){
+     let pelement = document.createElement("p");
+    //   console.log(pelement);
+       let data = document.createTextNode("How are you students");
+       pelement.appendChild(data);
+    //   console.log(pelement);
+     let divelement = document.getElementById("d1")
+    // console.log(element);
+    divelement.appendChild(pelement);
+      console.log(divelement);
+}
+</script>
+
+</body>
+</html>
