@@ -1,0 +1,167 @@
+What is CSS?
+- It is used to design webpage or websites.
+- CSS stands for Cascading style sheet.
+- the latest version of css is css3.
+
+
+There are 3 ways to use CSS
+1.inline css: in starting tag we write Style attribute in that we write property and value. 
+2.internal css: in html page we use style tag and in that we write css code.
+  synatx:   selector{
+      property:value;
+      property:value;
+      property:value;
+  } 
+3.external css : in this we create a seperate css file and this css file import in html file. 
+ synatx:   selector{
+      property:value;
+      property:value;
+      property:value;
+  } 
+Selector in CSS
+
+1.element selector(p): select element with name
+2.group selector(p,h1,div) : here we make group of elements.
+3.id selector (#): when we have to appply css property to single element. 
+4.class selector(.):when we have to appply css to specific element.
+5.universal selector(*): when you have to appply css property to all element available in webapge.
+6.attribute selector([attr]): When you have to apply unique property to the element in webpage.
+
+Border Property
+*border-style, border-color,border-width,border-radius,border-image etc. 
+*border shorthand property.
+        
+*Box model concept.
+1. Content:- It can be any text or image
+2. Padding:- It clear area between Content & Border
+3. Border :- Line drown around your Content or element
+4. Margine:- It clear area between Element Border & screen Border
+
+background property.
+*How to create header 
+*text-shadow
+*box-shadow
+*opacity 
+
+*Differance between visibility hidden and display none
+display:none 
+visibility:hidden 
+
+*Overflow: it is use to fit big content into small box.
+overflow:visible,hidden,scroll,auto
+
+
+*pseudo classes: these are inbuilt class provide by css to us.
+-CSS pseudo-classes are used to add special effects to some selectors.
+syntax:
+selector:pseudo-class {property: value}
+There are four types:-
+.active - Use this class to add special style to an active element.
+.visited- Use this class to add special style to a visited link.
+.hover - Use this class to add special style to an element when you mouse over it.
+.link - Use this class to add special style to an unvisited link.
+
+*pseudo element:
+-A CSS pseudo-element is used to style specified parts of an element.
+There are five types of elements:-
+.before - It is used to insert some content before the content of an element.
+.after - It is used to insert some content after the content of an element.
+.first-line - It is used to add a special style to the first line of a text.
+.first-letter - It is used to add a special style to the first letter of a text.
+.selection - It  matches the portion of an element that is selected by a user.
+
+text property
+
+*Position:we can manage layout and Position of an element.
+         -with the help of position property we can move element to left ,right,top,bottom side.
+         -by default every element has position:static.
+
+        position:relative => we can move element by left,right,top,bottom ,property.    
+        position:absolute => when you want Child element must work according to its parent element.
+                            -we appply absolute to child element
+                            -its parent element must have property position:relative. 
+        position:fixed   => with the help of it, we can fixed element on view port.
+        position:sticky  => we can stick element on view port by specifing left,right,top,bottom.
+
+        **z-index: it decide elelement priority
+                 -it has only two values 1 and 0 
+
+*Use of display property 
+display:block; => it is use to convert inline elelement into block elelement
+display:inline; => if you want to convert block elelement into inline.
+display:inline-block; => it allows us to appply height and width of inline elelement without converting into block elelement.
+display: flex; =>
+display: grid; => A Grid Layout must have a parent element with the display property set to grid or inline-grid.
+Direct child element(s) of the grid container automatically becomes grid items.
+
+Combinators
+1. Dicendent Combinator(space)
+	-The descendant selector matches all elements that are descendants of a specified element. 
+2. Child Combinator(>)
+	-The child selector selects all elements that are the children of a specified element.
+3. adjecent sibling(+)
+	-The adjacent sibling selector is used to select an element that is directly after another specific element.
+4. adjecent general(~)
+	-The general sibling selector selects all elements that are next siblings of a specified element.
+
+
+float property:-
+float:it brings block element side by side 
+The float property is used for positioning and formatting content.
+float: left;
+float: right;
+
+
+clear property:-
+*clear: it do not allowe its neighbour element beside it when you use clear property with values.
+        -it has three value left,right,both 
+clear:none;
+clear:left;
+clear:right;
+clear:both;
+
+Task: design galary.
+
+*Navbar
+1. vertical
+2. Horizontal
+
+Dropdown List
+
+what is difference between width & max-width?
+
+BoxSizing
+
+how to apply css property to input controls.
+
+*media query: if you want to apply different style rule for different screen size.
+
+media screen and (breakpoint){
+        properties or classes
+}
+
+screen size >= 1200px =>xl
+screen size >= 992px => lg
+screen size >= 768px => md
+screen size >= 576px => sm
+screen size >= <576px =>xs
+
+@media screen and (max-width:400px){
+        .myTitle{
+                display : block;
+        }
+}
+
+linear gradint
+
+
+
+Bootstrap
+=========
+form classes
+
+input type=text => .form-control
+input=radio/checkbox
+
+
+

@@ -1,0 +1,255 @@
+ 
+*introduction of html
+*softeware and tool require for executing html page 
+-visual studio code or notepad
+
+*What is HTML 
+-it is use to create structure webpage or website
+-it is use to display to user on browser 
+-it stands for Hyper Text Markup Language. 
+-latest version of html is html5 
+ 
+*What is Tag in html
+- Name sarounded by less than sign(<) and greater than sign(>) is called tag.
+eg: tag =>  <p>
+ 
+*Skelaton structure of html 
+*use of head section in html 
+*use of body section in html
+
+-in html we have two section 
+head: it contain meta data and external links  
+body: whatever data we want to display on browser that content we write here
+
+*Types of Tag in html
+*basic tag in html 
+*How to create first webpage
+-html is tag basis language 
+
+  
+ -in html we have two types of tag 
+   1.paired tag: <start-tag> content </end-tag>
+   2.unpaired tag: <single> 
+
+
+*formating tag in html 
+ b,u,i,del,mark,strong,em,ins,abbr
+
+
+*how to comment code or use of comment
+*Coomenting in html 
+<!-- content -->
+
+*how to insert images in html page 
+-inserting image by using relative path
+
+Q. what is attribute 
+It provide additional information to the tag or element.
+
+
+-Symantic element introduces: element with specific meaning is Symantic element
+                             example: header,footer,section,nav,aside,address
+
+-new tag,new input type and new attribute : strong, em, ins,abbr,mark,del,
+
+*how to insert audio and video file 
+-multimedia element get introduces: we can insert audio and video file buy using 
+	audio & video tag.
+
+-HTML API (Application Programing Interface)
+ 1.Geolocation: it returns user current position. 
+ 2.Drag and Drop : grab an object and place in another location
+ 3.Web-Worker : it is small javascript code, which execute at backend of your webapge 
+               without affecting current execution.
+ 4.Web-Storage : it is use to store user data on browser. 
+         1.local storage: it use to store user data for permanantly. 
+         2.session storage : it is use to store user data for limited time.
+ 5.SSE(Server Sent Event) : it allows us to get automatic update from server. 
+
+
+*what is element.
+<start-tag attribute="value"> content <end-tag>
+
+
+
+*types of element  in html 
+1.Block Element:- the element which always start on new line.
+                -it takes fullwidth of its screen.
+                -ex:- h1-h6,div,p,table, 
+
+2.Inline Element:-element which never start on new line.
+                 - it takes spicific width of it. 
+                 -ex:- b,i,u,img,a,
+
+
+*List 
+1.Ordered List (1,2,3,A,B,C,a,b,c,I,II,III,i,ii,ii) 
+2.Unordered List (disc,square,circle,none)
+3.Description List : dl,dt,dd
+
+task-2: display ol list with type a,b,c,I,II,III,i,ii,ii
+task-3: display ul list with type square,none
+task-4: insert 10 images using relative path 
+
+*How to create a link in webapge 
+link: it is use to redirect you or navigate you from one location to another.
+     - to create a link for that we anchore tag 
+Task: create Image as Link 
+Task: create Link for your all webpages
+Task: create a link which is use to scrollup.  
+
+
+*iframe:- it is use to insert google map location 
+        - if you want insert youtube 
+        - to insert one website into another 
+
+*step to insert google map location 
+step-1: go to url and open google map 
+step-2: search location which you want 
+step-3: click on share=> click on embed map => copy iframe tag 
+step-4: paste that iframe as it is in html page .
+
+*how to insert youtube video 
+*how to insert one website into another 
+
+Task: insert 5 google map location 
+task: insert 5 youtube vidios 
+task: insert one website into another min-3 
+
+
+*Table: it is collection of rows and column
+
+
+*Table with rowspan 
+*Table with colspan 
+*Table with rowspan and colspan together 
+
+
+*Table Task: create 3 different table 
+
+
+What is Form?
+
+A form is used to collect the data from user.
+
+In HTML5, new input types introduced which is given below,
+
+ Input Types:
+	
+	<input type="button">
+	<input type="checkbox">
+	<input type="color">
+	<input type="date">
+	<input type="datetime-local">
+	<input type="email">
+	<input type="file">
+	<input type="hidden">
+	<input type="image">
+	<input type="month">
+	<input type="number">
+	<input type="password">
+	<input type="radio">
+	<input type="range">
+	<input type="reset">
+	<input type="search">
+	<input type="submit">
+	<input type="tel">
+	<input type="text">
+	<input type="time">
+	<input type="url">
+	<input type="week">
+
+
+Form Validation:
+
+ Form validation is used for inserting or collecting users correct data properly.
+
+
+Task to Create the registration form using input types & validation.
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

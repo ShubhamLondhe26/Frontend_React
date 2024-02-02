@@ -68,3 +68,15 @@ const: it create block scope variable.
 
 
 *OOPS
+
+
+
+*inheritance 
+-we use extends method to inherit the objects.
+
+*MOdules
+to include another js code to current js code modules are used.
+
+two types of module:
+1- Export
+2- Import
